@@ -1,0 +1,16 @@
+- graph.exe
+  编译好的程序，直接运行即可
+
+- graph_data.txt
+  图的结构数据
+
+- exam.pdf
+  作业的要求
+
+
+--  程序文件  --
+- graph.h/graph.cpp
+  图的构建
+
+- main.cpp
+  Dijkstra算法的实现

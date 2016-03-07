@@ -1,0 +1,59 @@
+<ID>
+<X>	2
+<Y>	5
+</ID>
+
+<Num_of_Node>	17
+<Nodes>
+A
+Stonebridge_roundabout
+Tollbar_End
+A4071_junction
+M1,_J17
+Coventry
+A428_junction
+M6,_J3
+M6,_J2
+M6,_J1
+M1,_J19
+Hinkley
+M69,_J1
+M1,_J20
+M1,_J21
+Hinkley_Road_roundabout
+B
+</Nodes>
+
+<Num_of_Edges>	29
+<Edges>
+Node_st			Node_ed			Distance	Basic_Speed	X_or_Y	Plus
+A			M6,_J3			3		30		0	+1
+A			Coventry		3		20		1	+1
+A			Stonebridge_roundabout	4		40		0	-1
+Stonebridge_roundabout	Coventry		2		30		1	-1
+Stonebridge_roundabout	Tollbar_End		2		40		0	+1
+Tollbar_End		A428_junction		2		40		1	+1
+Tollbar_End		A4071_junction		7		60		0	-1
+A4071_junction		M6,_J1			6		40		1	-1
+A4071_junction		M1,_J17			10		70		0	+1
+M1,_J17			M1,_J19			6		70		1	+1
+Coventry		M6,_J3			3		30		0	-1
+Coventry		M6,_J2			3		30		1	-1
+Coventry		A428_junction		3		20		0	+1
+A428_junction		M6,_J2			3		70		1	+1
+M6,_J3			Hinkley			4		60		0	-1
+M6,_J3			M6,_J2			3		70		1	-1
+M6,_J2			M69,_J1			6		60		0	+1
+M6,_J2			M6,_J1			8		70		1	+1
+M6,_J1			M1,_J20			3		50		0	-1
+M6,_J1			M1,_J19			3		70		1	-1
+M1,_J19			M1,_J20			3		70		0	+1
+Hinkley			Hinkley_Road_roundabout	14		50		1	+1
+Hinkley			M69,_J1			3		60		0	-1
+M69,_J1			M1,_J21			10		70		1	-1
+M69,_J1			M1,_J20			10		50		0	+1
+M1,_J20			M1,_J21			11		70		1	+1
+M1,_J21			Hinkley_Road_roundabout	2		30		0	-1
+M1,_J21			B			2		20		1	-1
+Hinkley_Road_roundabout	B			1		20		0	+1
+</Edges>
